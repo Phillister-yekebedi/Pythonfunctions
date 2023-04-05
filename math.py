@@ -1,4 +1,4 @@
-def add (a,b):
+def add(a,b):
     answer = a+b 
     return answer
 
@@ -11,6 +11,7 @@ def substract (c,d):
 def divide (e,f):
     answer = e/f 
     return answer
+
 
 def multiply (g,h):
     answer = g*h 
