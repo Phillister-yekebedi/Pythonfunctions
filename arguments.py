@@ -32,6 +32,26 @@ def concatenate_kwargs(**kwargs):
     for student in kwargs.values():
      name+=student
     return name
-          
+
+def sum_multiplication(sum,multiplication):
+     return(f"the sum of 6 and 2 is {sum} and their product is {multiplication}")
+print(sum_multiplication(6+2,6*2) )
+
+
+#default  arguments
+def names(firstname="a", secondname= "b"):
+     return(f"my name is {firstname} {secondname}")
+print(names())
+print(names(firstname="Yekebedi"))
+print(names(firstname="Boss",secondname="Otieno"))
+
+#kwargs
+# def allNames(*na
+    
+#          final=[name for name in names]
+
+#          print(f"hello {final}")
+         
+#      allNames("dad","mom","sister","brother","family")
             
 
