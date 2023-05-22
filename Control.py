@@ -86,7 +86,7 @@ def number_is_prime(int):
             if k %i == 0:
                 print(k, "is not prime")
     else:
-        print(x, "is prime")
+        print(k,"is prime")
 number_is_prime(int)        
         
 
@@ -103,14 +103,13 @@ def sum_numbers():
             print("not divisible by three")
             sums = sums+1
             print (sums)   
-            
+
 
 sum_numbers()            
 
 
 #Qsn 4) Write a function that takes any two integers as input, and prints the sum 
       # of all the numbers between the two integers (inclusive) that are divisible by 3.
-
         
 def by_three():
     num = range(10,20)
